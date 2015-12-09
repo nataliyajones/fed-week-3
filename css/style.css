@@ -1,0 +1,64 @@
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+  margin-bottom: 100px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 0;
+  font-size: 52px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: red;
+}
+
+img {
+  width: 100;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  border-bottom: 5px solid #ccc;
+  margin-bottom: 50px;
+}
+
+em {
+  font-style: normal;
+  text-transform: uppercase;
+  color: tomato;
+}
+
+footer {
+  text-align: right;
+  position: fixed;
+  background-color: #333333;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  padding: 0 25px;
+}
